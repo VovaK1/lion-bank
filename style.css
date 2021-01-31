@@ -26,9 +26,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #29282D;
-  background-image: url("./images/lion-background.jpg");
   color: #fff;
   position: relative;
+}
+
+.main-page-wrapper {
+  background: url("./images/lion-background.jpg") center top no-repeat, url("./images/lion-bottom.jpg") right bottom 240px no-repeat; 
 }
 
 * {
@@ -43,6 +46,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+p {
+  margin-top: 0;
+}
 ul {
   padding: 0;
   margin: 0;
@@ -164,7 +170,7 @@ a {
 }
 
 .offers {
-  margin-bottom: 128px;
+  margin-bottom: 119px;
 }
 
 .offers__title {
@@ -274,10 +280,6 @@ background: #a5a5a4;
   font-size: 30px;
 }
 
-.news {
-  margin-bottom: 125px;
-}
-
 .news__title {
   font-size: 36px;
   font-weight: 700;
@@ -285,7 +287,7 @@ background: #a5a5a4;
 }
 
 .news__list {
-  margin-bottom: 57px;
+  margin-bottom: 47px;
 }
 .news__item {
   width: 555px;
@@ -330,6 +332,7 @@ background: #a5a5a4;
 
 .pagination {
   text-align: center;
+  margin-bottom: 140px;
 }
 
 .pagination__info,.pagination__list {
@@ -359,3 +362,118 @@ background: #a5a5a4;
 .pagination__item-active .pagination__link {
   background-color: #353439;
 }
+
+.pagination__link:hover {
+  background-color: #353439;
+}
+
+.about:before {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  width: 490px;
+  height: 505px;
+  background: url("./images/chess.jpg") center center / cover no-repeat;
+}
+
+.about__desc {
+  background: #202123;
+  padding: 70px 81px;
+  display: inline-block;
+  vertical-align: top;
+  width: 785px;
+  margin-left: -140px;
+  margin-top: 100px;
+}
+
+.about__title {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 37px;
+}
+
+.about__text {
+  margin-bottom: 65px;
+  min-height: 110px;
+}
+
+.about__text p {
+  margin-bottom: 20px;
+}
+
+.about__text p:last-child {
+  margin-bottom: 0;
+}
+
+.about {
+  margin-bottom: 55px;
+}
+
+.footer {
+  position: relative;
+  height: 140px;
+  margin-top: 10px;
+}
+
+.footer-container__content {
+  border-top: 1px solid #fff;
+}
+
+.contacts__desc {
+  font-size: 11px;
+  color: #9a9a9a;
+  font-style: normal;
+}
+
+.media {
+  position: absolute;
+  top: 45px;
+  right: 270px;
+}
+
+.media__link {
+  display: block;
+  height: 36px;
+  width: 36px;
+  background: center center no-repeat;
+}
+
+.media__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.media__item:last-child {
+  margin-right: 0;
+}
+
+.media__item-icon-tg .media__link {
+  background-image: url("./images/telegram.jpg");
+}
+.media__item-icon-tg .media__link:hover {
+  background-image: url("./images/telegram-hover.jpg");
+}
+
+.media__item-icon-vk .media__link {
+  background-image: url("./images/vk.jpg")
+}
+.media__item-icon-vk .media__link:hover {
+  background-image: url("./images/vk-hover.jpg")
+}
+
+.media__item-icon-f .media__link {
+  background-image: url("./images/f.jpg");
+}
+.media__item-icon-f .media__link:hover {
+  background-image: url("./images/f-hover.jpg");
+}
+
+.media__item-icon-inst .media__link {
+  background-image: url("./images/in.jpg");
+}
+
+.media__item-icon-inst .media__link:hover {
+  background-image: url("./images/in-hover.jpg");
+}
+

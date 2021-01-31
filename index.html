@@ -8,37 +8,40 @@
 </head>
 <body>
 
-<div class="wrapper">
-  <div class="container">
-    <header class="header">
-        <div class="logo">
-          <a href="/"><img src="./images/logo.jpg" alt="lion bank logo"></a>
-        </div>
-        <nav class="nav">
-          <ul class="nav__list">
-            <li class="nav__item nav__item_active"><a href="#" class="nav__link">Главная</a></li>
-            <li class="nav__item"><a href="#"class="nav__link">Услуги</a></li>
-            <li class="nav__item"><a href="#"class="nav__link">Отзывы</a></li>
-          </ul>
-        </nav>
-        <address class="contacts">
-        <a href="tel:+788007003030" class="contacts__phone">8 800 700 30 30</a>
-        <div class="contacts__workhours">График работы</div>
-        </address>
-    </header>
- 
+<div class="wrapper main-page-wrapper">
+  <section class="hero">
+    <div class="container">
+      <header class="header">
+          <div class="logo">
+            <a href="/"><img src="./images/logo.jpg" alt="lion bank logo"></a>
+          </div>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item nav__item_active"><a href="#" class="nav__link">Главная</a></li>
+              <li class="nav__item"><a href="#"class="nav__link">Услуги</a></li>
+              <li class="nav__item"><a href="#"class="nav__link">Отзывы</a></li>
+            </ul>
+          </nav>
+          <address class="contacts">
+          <a href="tel:+788007003030" class="contacts__phone">8 800 700 30 30</a>
+          <div class="contacts__workhours">График работы</div>
+          </address>
+      </header>
+    
   
-    <section class="slogan">
-      <div class="slogan__text-section">
-        <h1 class="slogan__title">Не отказывай себе в желании быть первым</h1>
-        <div class="slogan__text">Банк с львиным характером</div>
-        <a href="#" class="button-detailed button-color-ginger">Подробнее</a>
-    </div>
-    </section>
-  </div>  <!--container-->
+      <div class="slogan">
+        <div class="slogan__text-section">
+          <h1 class="slogan__title">Не отказывай себе в желании быть первым</h1>
+          <div class="slogan__text">Банк с львиным характером</div>
+          <a href="#" class="button-detailed button-color-ginger">Подробнее</a>
+        </div>
+      </div>
+    </div>  <!--container-->
+  </section>
 
-    <section class="offers">
-      <div class="container">
+  <section class="section">
+    <div class="container">
+      <div class="offers">
         <h2 class="offers__title">Лучшие предложения банка</h2>
         <div class="cards">
           <div class="cards__item cards__item-theme-grey">
@@ -107,30 +110,33 @@
             </div>
           </div> <!--cards_platinum-->
         </div> <!--cards-->
-      </div> <!--container-->
-    </section> 
+      </div>
+    </div> <!--container-->
+  </section> 
 
-    <section class="news">
+    <section class="section">
       <div class="container">
-        <h2 class="news__title">Новости и акции</h2>
-          <ul class="news__list">
-            <li class="news__item">
-              <div class="news__img"><img src="./images/phone.jpg" alt="iphone"></div>
-              <div class="news__content">
-                <time class="news__date">Декабрь 2019</time>
-                <h3 class="news__subtitle">Удобное мобильное приложение</h3>
-                <p class="news__text">Хороший банк, хорошие условия</p>
-              </div>
-            </li>
-            <li class="news__item">
-              <div class="news__img"><img src="./images/mountains.jpg" alt="mountains"></div>
-              <div class="news__content">
-                <time class="news__date">Декабрь 2019</time>
-                <h3 class="news__subtitle">Копите на поездку? Откройте счет!</h3>
-                <p class="news__text">Хороший банк, хорошие условия. Откладывайте деньги! Наш банк самый лучший банк в мире!</p>
-              </div>
-            </li>
-          </ul>
+        <div class="news">
+          <h2 class="news__title">Новости и акции</h2>
+            <ul class="news__list">
+              <li class="news__item">
+                <div class="news__img"><img src="./images/phone.jpg" alt="iphone"></div>
+                <div class="news__content">
+                  <time class="news__date">Декабрь 2019</time>
+                  <h3 class="news__subtitle">Удобное мобильное приложение</h3>
+                  <p class="news__text">Хороший банк, хорошие условия</p>
+                </div>
+              </li>
+              <li class="news__item">
+                <div class="news__img"><img src="./images/mountains.jpg" alt="mountains"></div>
+                <div class="news__content">
+                  <time class="news__date">Декабрь 2019</time>
+                  <h3 class="news__subtitle">Копите на поездку? Откройте счет!</h3>
+                  <p class="news__text">Хороший банк, хорошие условия. Откладывайте деньги! Наш банк самый лучший банк в мире!</p>
+                </div>
+              </li>
+            </ul>
+        </div>
       </div>
       <div class="pagination">
         <div class="pagination__info">
@@ -162,60 +168,57 @@
       </div> <!--pagination-->
     </section>
 
-    <section class="about">
-      <div class="about__img"><img src="./images/chess.jpg" alt="chess"></div>
-      <div class="about__desc">
-        <h2 class="about__title">О банке</h2>
-        <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, praesentium. Rerum ut iure voluptas illo magni eum aperiam nulla distinctio, ipsa vitae ipsum quae, deleniti earum obcaecati hic, corporis exercitationem.
-        </p>
-        <a href="#" class="button-detailed">Подробнее</a>
+    <section class="section">
+      <div class="container">
+        <div class="about">
+          <div class="about__desc">
+            <h2 class="about__title">О банке</h2>
+            <div class="about__text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, explicabo necessitatibus minus, accusamus, placeat dolor harum veniam laudantium ipsum exercitationem ut voluptatum quas labore ipsa! Facilis dolorum incidunt rerum quod quasi officia ipsa, ipsam voluptatem molestiae minima distinctio nulla modi libero nisi!</p>
+            </div>
+            <a href="#" class="button-detailed button-color-ginger">Подробнее</a>
+          </div>
+        </div>
       </div>
     </section>
  
-    <footer class="footer">
+    <section class="footer-container">
+      <div class="container footer-container__content">
+        <footer class="footer">
+          <div class="logo">
+            <a href="#"><img src="./images/logo.jpg" alt="lion-logo"></a>
+          </div>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item nav__item_active"><a href="#" class="nav__link">Главная</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Услуги</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Отзывы</a></li>
+            </ul>
+          </nav>
 
-      <div class="logo-bottom">
-        <a href="#"><img src="./images/logo.jpg" alt="lion-logo"></a>
+          <div class="media">
+            <ul class="media__list">
+              <li class="media__item media__item-icon-tg">
+                <a href="#" class="media__link"></a>
+              </li>
+              <li class="media__item media__item-icon-vk">
+                <a href="#" class="media__link"></a>
+              </li>
+              <li class="media__item media__item-icon-f">
+                <a href="#" class="media__link"></a>
+              </li>
+              <li class="media__item media__item-icon-inst">
+                <a href="#" class="media__link"></a>
+            </li>
+            </ul>
+          </div> <!--media-->
+          <address class="contacts">
+            <div class="contacts__desc ">Бесплатный звонок по России</div>
+            <a href="tel:+788007003030" class="contacts__phone">8 800 700 30 30</a>
+          </address> 
+       </footer>
       </div>
-
-      <nav class="nav-bottom">
-        <ul class="nav__list">
-          <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Услуги</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Отзывы</a></li>
-        </ul>
-      </nav>
-
-      <div class="media">
-        <ul class="media__list">
-          <li class="media__item">
-            <a href="#" class="media__link">
-              <img src="./images/telegram.jpg" alt="telegram" class="media__icon"></a>
-          </li>
-          <li class="media__item">
-            <a href="#" class="media__link">
-              <img src="./images/vk.jpg" alt="vk" class="media__icon"></a>
-          </li>
-          <li class="media__item">
-            <a href="#" class="media__link">
-              <img src="./images/f.jpg" alt="facebook" class="media__icon"></a>
-          </li>
-          <li class="media__item">
-            <a href="#" class="media__link">
-              <img src="./images/in.jpg" alt="instagram" class="media__icon">
-            </a>
-        </li>
-        </ul>
-      </div> <!--media-->
-
-      <address class="contacts-bottom">
-        <div class="contacts__text">Бесплатный звонок по России
-        </div>
-        <a href="tel:+788007003030" class="contacts__phone">8 800 700 30 30</a>
-      </address>
-
-    </footer>
-  
+    </section>
   </div> <!--wrapper-->
 
 </body>
