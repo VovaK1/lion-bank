@@ -1,0 +1,25 @@
+@import url('./layout/normalize.css');
+@import url('./layout/fonts.css');
+@import url('./layout/base.css');
+
+@import url('./blocks/header.css');
+@import url('./blocks/logo.css');
+@import url('./blocks/nav.css');
+@import url('./blocks/contacts.css');
+@import url('./blocks/slogan.css');
+@import url('./blocks/offers.css');
+@import url('./blocks/cards.css');
+@import url('./blocks/btn.css');
+@import url('./blocks/news.css');
+@import url('./blocks/pagination.css');
+@import url('./blocks/about.css');
+@import url('./blocks/footer.css');
+@import url('./blocks/media.css');
+@import url('./blocks/services__header.css');
+@import url('./blocks/services__main.css');
+@import url('./blocks/services__partners.css');
+
+
+
+
+

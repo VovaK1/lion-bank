@@ -1,0 +1,36 @@
+.button-detailed {
+  border-radius: 3px;
+  background: #DFB56D;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 16px 37px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  display: inline-block;
+}
+
+.button-detailed:hover {
+  box-shadow: 0px 8px 35px rgba(223, 181, 109, 0.15);
+}
+
+.button-color-ginger {
+  background: #DFB56D;
+}
+
+.button-color-ginger:hover {
+  background: #d3a556;
+  box-shadow: 0px 8px 35px rgba(223, 181, 109, 0.15);
+}
+
+.button-color-black {
+  background: #202123;
+}
+
+.button-color-black:hover {
+  background: #DFB56D;
+}
+
+.button-detailed-wrapper {
+  text-align: center;
+}

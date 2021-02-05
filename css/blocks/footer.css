@@ -1,0 +1,9 @@
+.footer {
+  position: relative;
+  height: 140px;
+  margin-top: 10px;
+}
+
+.footer-container__content {
+  border-top: 1px solid #fff;
+}

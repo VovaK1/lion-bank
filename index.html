@@ -3,33 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/main.css">
   <title>Lion Bank</title>
 </head>
 <body>
 
 <div class="wrapper main-page-wrapper">
   <section class="hero">
-    <header class="header">
-    <div class="container">
-          <div class="logo">
-            <a href="/"><img src="./images/logo.jpg" alt="lion bank logo"></a>
+    <div class="container hero__container">
+      <header class="header">
+        <div class="header__col">
+            <div class="logo">
+              <a href="/"><img src="./images/icons/logo.jpg" alt="lion bank logo"></a>
+            </div>
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item nav__item_active"><a href="#" class="nav__link">Главная</a></li>
+                <li class="nav__item"><a href="#"class="nav__link">Услуги</a></li>
+                <li class="nav__item"><a href="#"class="nav__link">Отзывы</a></li>
+              </ul>
+            </nav>
           </div>
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item nav__item_active"><a href="#" class="nav__link">Главная</a></li>
-              <li class="nav__item"><a href="#"class="nav__link">Услуги</a></li>
-              <li class="nav__item"><a href="#"class="nav__link">Отзывы</a></li>
-            </ul>
-          </nav>
-          <address class="contacts">
-          <a href="tel:+788007003030" class="contacts__phone">8 800 700 30 30</a>
-          <div class="contacts__workhours">График работы</div>
-          </address>
-        </div>
+          <div class="header__col header__col--align--right ">
+            <address class="contacts">
+              <a href="tel:+788007003030" class="contacts__phone">8 800 700 30 30</a>
+              <div class="contacts__workhours">График работы</div>
+            </address>
+          </div>
       </header>
-    
-      <div class="container">
       <div class="slogan">
         <div class="slogan__text-section">
           <h1 class="slogan__title">Не отказывай себе в желании быть первым</h1>
@@ -37,7 +38,7 @@
           <a href="#" class="button-detailed button-color-ginger">Подробнее</a>
         </div>
       </div>
-    </div>  <!--container--> 
+    </div>  <!--hero__container--> 
   </section>
 
   <section class="section">
@@ -47,10 +48,10 @@
         <div class="cards">
           <div class="cards__item cards__item-theme-grey">
             <div class="cards__header">
-              <div class="cards__img img-basic"><img src="./images/card_grey.jpg" alt="Карта «Базовая»"></div>
+              <div class="cards__img"><img src="./images/content/offers/card_grey.jpg" alt="Карта «Базовая»"></div>
             </div>
             <div class="cards__content">
-              <div class="cards__title"><h3>Карта «Базовая»</h3></div>
+              <h3 class="cards__title">Карта «Базовая»</h3>
               <div class="cards__features">
                 <div class="cards__features-cell">
                   <div class="cards__terms">60 Р.-</div>
@@ -69,10 +70,10 @@
 
           <div class="cards__item cards__item-theme-blue">
             <div class="cards__header">
-              <div class="cards__img img-optima"><img src="./images/card_blue.jpg" alt="Карта «Оптима»"></div>
+              <div class="cards__img"><img src="./images/content/offers/card_blue.jpg" alt="Карта «Оптима»"></div>
             </div>
             <div class="cards__content">
-              <div class="cards__title"><h3>Карта «Оптима»</h3></div>
+              <h3 class="cards__title">Карта «Оптима»</h3>
               <div class="cards__features">
                 <div class="cards__features-cell">
                   <div class="cards__terms">90 Р.-</div>
@@ -91,10 +92,10 @@
 
           <div class="cards__item cards__item-theme-gold">
             <div class="cards__header">
-             <div class="cards__img img-platinum"><img src="./images/card_gold.jpg" alt="Карта «Платинум»"></div>
+             <div class="cards__img"><img src="./images/content/offers/card_gold.jpg" alt="Карта «Платинум»"></div>
             </div>
             <div class="cards__content">
-              <div class="cards__title"><h3>Карта «Платинум»</h3></div>
+              <h3 class="cards__title">Карта «Платинум»</h3>
               <div class="cards__features">
                 <div class="cards__features-cell">
                   <div class="cards__terms">490 Р.-</div>
@@ -121,7 +122,7 @@
           <h2 class="news__title">Новости и акции</h2>
             <ul class="news__list">
               <li class="news__item">
-                <div class="news__img"><img src="./images/phone.jpg" alt="iphone"></div>
+                <div class="news__img"><img src="./images/content/news/phone.jpg" alt="iphone"></div>
                 <div class="news__content">
                   <time class="news__date">Декабрь 2019</time>
                   <h3 class="news__subtitle">Удобное мобильное приложение</h3>
@@ -129,7 +130,7 @@
                 </div>
               </li>
               <li class="news__item">
-                <div class="news__img"><img src="./images/mountains.jpg" alt="mountains"></div>
+                <div class="news__img"><img src="./images/content/news/mountains.jpg" alt="mountains"></div>
                 <div class="news__content">
                   <time class="news__date">Декабрь 2019</time>
                   <h3 class="news__subtitle">Копите на поездку? Откройте счет!</h3>
@@ -187,7 +188,7 @@
       <div class="container footer-container__content">
         <footer class="footer">
           <div class="logo">
-            <a href="#"><img src="./images/logo.jpg" alt="lion-logo"></a>
+            <a href="#"><img src="./images/icons/logo.jpg" alt="lion-logo"></a>
           </div>
           <nav class="nav">
             <ul class="nav__list">

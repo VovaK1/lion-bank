@@ -1,0 +1,55 @@
+.media {
+  position: absolute;
+  top: 45px;
+  right: 270px;
+  min-width: 174px;
+}
+
+.media__link {
+  display: block;
+  height: 36px;
+  width: 36px;
+  background: center center no-repeat;
+}
+.media__list {
+  display: flex;
+  justify-content: space-between;
+}
+/* .media__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+} */
+
+.media__item:last-child {
+  margin-right: 0;
+}
+
+.media__item-icon-tg .media__link {
+  background-image: url("../../images/icons/telegram.jpg");
+}
+.media__item-icon-tg .media__link:hover {
+  background-image: url("../../images/icons/telegram-hover.jpg");
+}
+
+.media__item-icon-vk .media__link {
+  background-image: url("../../images/icons/vk.jpg")
+}
+.media__item-icon-vk .media__link:hover {
+  background-image: url("../../images/icons/vk-hover.jpg")
+}
+
+.media__item-icon-f .media__link {
+  background-image: url("../../images/icons/f.jpg");
+}
+.media__item-icon-f .media__link:hover {
+  background-image: url("../../images/icons/f-hover.jpg");
+}
+
+.media__item-icon-inst .media__link {
+  background-image: url("../../images/icons/in.jpg");
+}
+
+.media__item-icon-inst .media__link:hover {
+  background-image: url("../../images/icons/in-hover.jpg");
+}

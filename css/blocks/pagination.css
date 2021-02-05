@@ -1,0 +1,39 @@
+.pagination {
+  text-align: center;
+  margin-bottom: 140px;
+}
+
+.pagination__info {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 25px;
+}
+
+.pagination__list{
+  display: inline-flex;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+/* .pagination__item {
+  display: inline-block;
+  vertical-align: middle;
+} */
+
+.pagination__link {
+  height: 32px;
+  width: 32px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.pagination__item-active .pagination__link {
+  background-color: #353439;
+}
+
+.pagination__link:hover {
+  background-color: #353439;
+}
