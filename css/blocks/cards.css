@@ -5,12 +5,13 @@
 
 .cards__item {
   min-height: 450px;
-  width: 362px;
-  display: block;
+  width: calc(100% / 3 - 18px);
   background: #fff;
   color: #010001;
   overflow: hidden;
   flex-shrink: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .cards__header {
@@ -35,12 +36,19 @@
 
 .cards__content {
   padding: 21px 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .cards__title {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 19px;
+}
+
+.cards__features {
+  flex-wrap:wrap;
 }
 
 .cards__features-cell {

@@ -1,8 +1,6 @@
 .media {
-  position: absolute;
-  top: 45px;
-  right: 270px;
   min-width: 174px;
+  margin-right: 74px;
 }
 
 .media__link {

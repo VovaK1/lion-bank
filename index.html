@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=1142px, initial-scale=1.0">
   <link rel="stylesheet" href="css/main.css">
   <title>Lion Bank</title>
 </head>
@@ -41,7 +41,7 @@
     </div>  <!--hero__container--> 
   </section>
 
-  <section class="section">
+  <section class="offers-section section">
     <div class="container">
       <div class="offers">
         <h2 class="offers__title">Лучшие предложения банка</h2>
@@ -64,7 +64,7 @@
               </div> <!--cards_features-->
               <div class="button-detailed-wrapper">
                <a href="#" class="button-detailed button-color-black">Подробнее</a>
-               </div>
+              </div>
             </div>
           </div> <!--cards_basic-->
 
@@ -116,25 +116,25 @@
     </div> <!--container-->
   </section> 
 
-    <section class="section">
+    <section class="section news-section">
       <div class="container">
         <div class="news">
           <h2 class="news__title">Новости и акции</h2>
             <ul class="news__list">
-              <li class="news__item">
-                <div class="news__img"><img src="./images/content/news/phone.jpg" alt="iphone"></div>
-                <div class="news__content">
-                  <time class="news__date">Декабрь 2019</time>
-                  <h3 class="news__subtitle">Удобное мобильное приложение</h3>
-                  <p class="news__text">Хороший банк, хорошие условия</p>
+              <li class="news__item single-news">
+                <div class="single-news__img"><img src="./images/content/news/phone.jpg" alt="iphone"></div>
+                <div class="single-news__content">
+                  <time class="single-news__date">Декабрь 2019</time>
+                  <h3 class="single-news__subtitle">Удобное мобильное приложение</h3>
+                  <p class="single-news__text">Хороший банк, хорошие условия</p>
                 </div>
               </li>
-              <li class="news__item">
-                <div class="news__img"><img src="./images/content/news/mountains.jpg" alt="mountains"></div>
-                <div class="news__content">
-                  <time class="news__date">Декабрь 2019</time>
-                  <h3 class="news__subtitle">Копите на поездку? Откройте счет!</h3>
-                  <p class="news__text">Хороший банк, хорошие условия. Откладывайте деньги! Наш банк самый лучший банк в мире!</p>
+              <li class="news__item single-news">
+                <div class="single-news__img "><img src="./images/content/news/mountains.jpg" alt="mountains"></div>
+                <div class="single-news__content">
+                  <time class="single-news__date">Декабрь 2019</time>
+                  <h3 class="single-news__subtitle">Копите на поездку? Откройте счет!</h3>
+                  <p class="single-news__text">Хороший банк, хорошие условия. Откладывайте деньги! Наш банк самый лучший банк в мире!</p>
                 </div>
               </li>
             </ul>
@@ -170,7 +170,7 @@
       </div> <!--pagination-->
     </section>
 
-    <section class="section">
+    <section class="section about-section">
       <div class="container">
         <div class="about">
           <div class="about__desc">
@@ -187,18 +187,20 @@
     <section class="footer-container">
       <div class="container footer-container__content">
         <footer class="footer">
+          <div class="footer__col">
           <div class="logo">
             <a href="#"><img src="./images/icons/logo.jpg" alt="lion-logo"></a>
           </div>
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item nav__item_active"><a href="#" class="nav__link">Главная</a></li>
-              <li class="nav__item"><a href="#" class="nav__link">Услуги</a></li>
-              <li class="nav__item"><a href="#" class="nav__link">Отзывы</a></li>
-            </ul>
-          </nav>
-
-          <div class="media">
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item nav__item_active"><a href="#" class="nav__link">Главная</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Услуги</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Отзывы</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__col footer__col--align--right">
+           <div class="media">
             <ul class="media__list">
               <li class="media__item media__item-icon-tg">
                 <a href="#" class="media__link"></a>
@@ -218,6 +220,7 @@
             <div class="contacts__desc ">Бесплатный звонок по России</div>
             <a href="tel:+788007003030" class="contacts__phone">8 800 700 30 30</a>
           </address> 
+        </div>
        </footer>
       </div>
     </section>

@@ -1,8 +1,7 @@
 
 .about:before {
   content: "";
-  display: inline-block;
-  vertical-align: top;
+  display: block;
   width: 490px;
   height: 505px;
   background: url("../../images/decor/chess.jpg") center center / cover no-repeat;
@@ -13,7 +12,7 @@
   padding: 70px 81px;
   display: inline-block;
   vertical-align: top;
-  width: 785px;
+  max-width: 785px;
   margin-left: -140px;
   margin-top: 100px;
 }
@@ -38,5 +37,9 @@
 }
 
 .about {
+  display: flex;
+}
+
+.about-section {
   margin-bottom: 55px;
 }

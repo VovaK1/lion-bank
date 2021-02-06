@@ -21,6 +21,8 @@ body {
   overflow: hidden;
   min-height: 100%;
   min-width: 1142px;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-page-wrapper {
@@ -67,4 +69,9 @@ table {
   flex-direction: column;
   justify-content: space-between;
   min-height: 600px;
+  margin-bottom: 150px;
+}
+
+.footer-container {
+  margin-top: auto;
 }
