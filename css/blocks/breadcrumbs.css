@@ -9,6 +9,16 @@
   text-decoration: underline;
 }
 
+.breadcrumbs__item {
+  display: flex;
+  align-items: center;
+  margin-right: 3px;
+}
+
+.breadcrumbs__item:first-child {
+  padding-left: 0px;
+}
+
 .breadcrumbs__item-active .breadcrumbs__link {
   color: #999999;
   text-decoration: none;
@@ -17,13 +27,10 @@
 .breadcrumbs__item::after {
   content: "/";
   color: #999;
+  padding-left: 5px;
 }
 
 .breadcrumbs__item:last-child:after {
   content: none;
 }
 
-.breadcrumbs__item {
-  display: flex;
-  align-items: center;
-}

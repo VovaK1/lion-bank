@@ -8,60 +8,64 @@
 </head>
 <body>
   <div class="wrapper">
-    <section class="top-line">
-    <div class="container top-line__container">
-      <header class="header">
-        <div class="header__col">
-          <div class="logo">
-            <a href="/"><img src="./images/icons/logo.jpg" alt="lion bank logo"></a>
-          </div>
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
-              <li class="nav__item nav__item_active"><a href="#"class="nav__link">Услуги</a></li>
-              <li class="nav__item"><a href="#"class="nav__link">Отзывы</a></li>
+    <section class="top-line top-line__container">
+      <header class="header header-services">
+        <div class="container container-header">
+            <div class="header__col">
+                <div class="logo">
+                  <a href="/"><img src="./images/icons/logo.png" alt="lion bank logo"></a>
+                </div>
+                <nav class="nav">
+                  <ul class="nav__list">
+                    <li class="nav__item nav__item_active"><a href="#" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="#"class="nav__link">Услуги</a></li>
+                    <li class="nav__item"><a href="#"class="nav__link">Отзывы</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="header__col header__col--align--right ">
+                <address class="contacts">
+                  <a href="tel:+788007003030" class="contacts__phone">8 800 700 30 30</a>
+                  <div class="contacts__workhours">График работы</div>
+                </address>
+              </div>
+        </div>
+        </header>
+        <div class="container">
+          <h1 class="services-title">Услуги</h1>
+        </div>
+        <div class="container">
+          <nav class="breadcrumbs">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item">
+                <a href="#" class="breadcrumbs__link">Главная</a>
+              </li>
+              <li class="breadcrumbs__item breadcrumbs__item-active">
+                <a href="#" class="breadcrumbs__link">Услуги</a>
+              </li>
             </ul>
           </nav>
         </div>
-        <div class="header__col header__col--align--right ">
-          <address class="contacts">
-            <a href="tel:+788007003030" class="contacts__phone">8 800 700 30 30</a>
-            <div class="contacts__workhours">График работы</div>
-          </address>
-        </div>
-      </header>
-        <h1 class="services-title">Услуги</h1>
-        <nav class="breadcrumbs">
-          <ul class="breadcrumbs__list">
-            <li class="breadcrumbs__item">
-              <a href="#" class="breadcrumbs__link">Главная</a>
-            </li>
-            <li class="breadcrumbs__item breadcrumbs__item-active">
-              <a href="#" class="breadcrumbs__link">Услуги</a>
-            </li>
-          </ul>
-        </nav>
     </section>
 
-    <section class="section">
+    <main class="page-content">   
       <div class="container">
-        <div class="services-main">
           <ul class="services__list">
-            <li class="services__item">
-              <div class="auto-img"><img src="#" alt="auto"></div>
-              <div class="services__item_text">
-                <h3 class="services__item-title">Автокредит под 17% годовых на 1000 лет + страховка</h3>
-                <div class="services__item_desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt deleniti dolores accusamus hic, vel quidem quasi sapiente laboriosam ratione odit, quaerat ipsam sint explicabo expedita iure illum dolor, excepturi molestiae?</p></div>
+            <li class="services__item service">
+              <div class="service__img"><img src="./images/content/services/key.jpg" class="service__img-elem" alt="auto"></div>
+              <div class="service__content">
+                <h3 class="service__title">Автокредит под 17% годовых на 1000 лет + страховка</h3>
+                <div class="service__desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt deleniti dolores accusamus hic, vel quidem quasi sapiente laboriosam ratione odit, quaerat ipsam sint explicabo expedita iure illum dolor, excepturi molestiae?</p></div>
               </div>
-              <div class="button-detailed">Подробнее</div>
+              <a href="#" class="button">Подробнее</a>
             </li>
-            <li class="services__item"> 
-              <div class="flat-img"><img src="#" alt="flat"></div>
-              <div class="services__item_text">
-                <h3 class="services__item-title">Ипотека под 9% годовых на 35 лет и душу впридачу</h3>
-                <div class="services__item_desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt deleniti dolores accusamus hic, vel quidem quasi sapiente laboriosam ratione odit, quaerat ipsam sint explicabo expedita iure illum dolor, excepturi molestiae?</p></div>
+            <li class="services__item service"> 
+              <div class="service__img"><img src="./images/content/services/couple.jpg" alt="flat" class="service__img-elem"></div>
+              <div class="service__content">
+                <h3 class="service__title">Ипотека под 9% годовых на 35 лет и душу впридачу</h3>
+                <div class="service__desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt deleniti dolores accusamus hic, vel quidem quasi sapiente laboriosam ratione odit, quaerat ipsam sint explicabo expedita iure illum dolor, excepturi molestiae?</p></div>
               </div>
-              <div class="button-submit">Отправить</div>
+              <a href="#" class="button">Отправить</a>
             </li>
           </ul>
           <div class="pagination">
@@ -92,9 +96,8 @@
               </li>
             </ul>
           </div> <!--pagination-->
-        </div> <!--services-main-->
      </div> <!--container-->
-    </section>
+    </main>
 
     <section class="section">
       <div class="container">
@@ -115,7 +118,7 @@
       <div class="container">
       <footer class="footer">
           <div class="logo">
-            <a href="#"><img src="./images/icons/logo.jpg" alt="lion-logo"></a>
+            <a href="#"><img src="./images/icons/logo.png" alt="lion-logo"></a>
           </div>
           <nav class="nav">
             <ul class="nav__list">
