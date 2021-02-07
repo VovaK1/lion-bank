@@ -75,3 +75,18 @@ table {
 .footer-container {
   margin-top: auto;
 }
+
+.top-line {
+  min-height: 415px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+  background:  #202123 url('../../images/bg/lion-head.png') right 20% top no-repeat;
+}
+
+.top-line__container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

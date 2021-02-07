@@ -1,25 +1,7 @@
-.services__header {
-  position: relative;
-  height: 412px;
-  color: #fff;
-  background: url('../../images/bg/lion-head.png');
-}
 
-.services__header .header {
-  margin-bottom: 90px;
-  
-}
-
-.services__title {
-  position: absolute;
+.services-title {
   font-size: 72px;
   font-weight: 700;
-  margin-bottom: 50px;
-  display: block;
-}
-
-.services__nav {
-  position: absolute;
-  display: inline-block;
-  bottom: 0;
+  line-height: 1;
+  color: #fff;
 }
