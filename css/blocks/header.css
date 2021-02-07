@@ -13,5 +13,11 @@
 
 .header__col--align--right {
   justify-content: flex-end;
+  align-items: center;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
 }
 

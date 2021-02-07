@@ -35,7 +35,7 @@
 }
 
 .cards__content {
-  padding: 21px 20px;
+  padding: 30px 20px;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -44,7 +44,7 @@
 .cards__title {
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 19px;
+  margin-bottom: 23px;
 }
 
 .cards__features {
