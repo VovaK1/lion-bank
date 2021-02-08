@@ -12,6 +12,10 @@
   margin-left: 0;
 }
 
+.partners__item:nth-child(4n) .partners__link {
+  justify-content: flex-end;
+}
+
 .partners__link {
   display: flex;
   width: 270px;
