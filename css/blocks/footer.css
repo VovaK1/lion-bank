@@ -1,9 +1,13 @@
 .footer {
   position: relative;
-  min-height: 140px;
   display: flex;
   align-items: center;
+
+}
+
+.main-footer {
   margin-top: 10px;
+  min-height: 140px;
 }
 
 .footer__col {
@@ -16,10 +20,26 @@
   justify-content: flex-end;
 }
 
-.footer-container__content {
+.container-main-footer {
   border-top: 1px solid #fff;
+}
+
+.footer-container__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.inner-footer {
+  background: #29282D;
+  margin-top: auto;
+  min-height: 130px;
+}
+
+.container-main-footer {
   min-height: 140px;
+}
+
+.services-footer-container {
+  padding: 23px 0;
 }

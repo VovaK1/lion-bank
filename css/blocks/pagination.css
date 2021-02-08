@@ -39,3 +39,17 @@
 .pagination__link:hover {
   background-color: #353439;
 }
+
+.pagination--theme--light {
+  color: #202123;
+}
+
+.pagination--theme--light .pagination__item-active .pagination__link {
+  color: #fff;
+  background: #353638;
+}
+
+.pagination--theme--light .pagination__link:hover {
+  color: #fff;
+  background: #353638;
+}

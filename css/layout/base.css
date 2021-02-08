@@ -30,6 +30,11 @@ body {
   background: url("../../images/bg/lion-background.jpg") center top no-repeat, url("../../images/bg/lion-bottom.jpg") right bottom 240px no-repeat; 
 }
 
+.services-wrapper {
+  color: #fff;
+  background: #F2F2F2;
+}
+
 * {
   box-sizing: border-box;
 }
