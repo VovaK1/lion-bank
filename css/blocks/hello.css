@@ -1,0 +1,40 @@
+.hello-page-wrapper {
+  background: url("../../images/bg/lion-splash.jpg") center center no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hello__content {
+  display: flex;
+  flex-direction: column;
+  min-height: 290px;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0;
+  animation-name: hello-appear;
+  animation-duration: 1.5s;
+  animation-timing-function: cubic-bezier(0,1.6,.97,-0.13);
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  transition: opacity 0.1s 0.5s linear;
+}
+
+
+@keyframes hello-appear {
+  0% {
+    transform: translateY(-20%);
+    opacity: 100%;
+  }
+
+
+  70% {
+    transform: translateY(5%);
+    opacity: 100%;
+  }
+
+  100% {
+    transform: translate(0,0);
+    opacity: 100%;
+  }
+}
