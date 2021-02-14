@@ -1,5 +1,5 @@
 .reviews-list {
-
+  margin-bottom: 50px;
   column-count: 2;
   column-gap: 30px;
 }
