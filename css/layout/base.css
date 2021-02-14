@@ -30,7 +30,7 @@ body {
   background: url("../../images/bg/lion-background.jpg") center top no-repeat, url("../../images/bg/lion-bottom.jpg") right bottom 240px no-repeat; 
 }
 
-.services-wrapper {
+.services-wrapper, .reviews-wrapper {
   color: #fff;
   background: #F2F2F2;
 }
@@ -42,6 +42,12 @@ body {
 img {
   display: block;
   max-width: 100%;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 ul li {
@@ -91,4 +97,24 @@ table {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.page-title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  margin-bottom: 27px;
+}
+
+.page-content {
+  background: #f2f2f2;
+  color: #303030;
+  padding: 50px 0;  
+  margin-bottom: 73px;
+}
+
+.reviews-page-content {
+  margin: 90px 0;
+  color: #303030;
 }

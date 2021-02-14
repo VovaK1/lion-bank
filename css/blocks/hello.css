@@ -1,5 +1,5 @@
 .hello-page-wrapper {
-  background: url("../../images/bg/lion-splash.jpg") center center no-repeat;
+  background: url("../../images/bg/lion-splash.jpg") center bottom / cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;

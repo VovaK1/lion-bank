@@ -1,0 +1,48 @@
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover .dropdown__workhours {
+  left: 30px;
+  opacity: 80%;
+}
+
+.dropdown:hover .contacts__workhours {
+  color: #fff;
+}
+
+.dropdown__workhours {
+  position: absolute;
+  width: 162px;
+  height: 80px;
+  background: #ededed;
+  top: 100%;
+  padding: 20px;
+  border-radius: 3%;  
+  margin-top: 10px;
+  left: -9999px;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.dropdown__workhours:before {
+  content: "";
+  position: absolute;
+  height: 80px;
+  left: 0;
+  right: 0;
+  top: -10px;
+  display: block;
+}
+
+.dropdown__workhours_item-days {
+  font-weight: 700;
+}
+
+.dropdown__workhours_item {
+  font-size: 13px;
+  display: flex;
+  align-items: center;  
+  color: #1E1F20;
+}
+

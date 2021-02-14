@@ -15,15 +15,16 @@
 @import url('./blocks/about.css');
 @import url('./blocks/footer.css');
 @import url('./blocks/media.css');
-@import url('./blocks/services__header.css');
 @import url('./blocks/services__main.css');
 @import url('./blocks/inner-section.css');
 @import url('./blocks/breadcrumbs.css');
 @import url('./blocks/hero.css');
 @import url('./blocks/partners.css');
 @import url('./blocks/hello.css');
-
-
-
+@import url('./blocks/dropdown.css');
+@import url('./blocks/reviews-list.css');
+@import url('./blocks/form.css');
+@import url('./blocks/separator.css');
+@import url('./blocks/controls.css')
 
 

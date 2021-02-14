@@ -15,6 +15,7 @@
   text-decoration: underline;
   font-size: 13px;
   color: #D3A557;
+  display: inline-block;
 }
 
 .contacts__desc {

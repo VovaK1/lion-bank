@@ -1,0 +1,94 @@
+.reviews-list {
+
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.reviews__item {
+  margin-bottom: 20px;
+}
+
+.review {
+  display: inline-flex;
+  flex-direction: column;
+  background: #F4F5F5;  
+  overflow: hidden;
+  padding: 30px 40px;
+}
+
+.review__header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.review__header-text {
+  display: flex;
+  padding-left: 22px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 75%;
+}
+
+.review__name {
+  color:#1A1B1E;
+  font-weight: 700;
+  font-size: 24px;
+  transition: color 0.1s linear;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.review__name:after {
+  content: url("../../images/icons/vk-blue.png");
+}
+
+.review__name:hover {
+  color: #2E77A4;
+  text-decoration: underline;
+}
+
+.review__desc-group {
+  display: flex;
+  align-items: flex-start;
+}
+
+.tag {
+  padding: 10px 25px;
+  font-size: 13px;
+  line-height: 17.7px;
+  color: #333;
+  border-radius: 50px;
+  background: #B9EAE4;
+}
+
+.review__title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  color: #202020;
+  margin-bottom: 13px;
+}
+
+.review__text {
+font-size: 16px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0px;
+text-align: left;
+margin-bottom: 24px;
+}
+
+.review__date {
+  color: #1A1B1E;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  justify-self: flex-end;
+  margin-bottom: 31px;
+}
+
+
+

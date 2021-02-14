@@ -24,30 +24,30 @@
 }
 
 .media__item-icon-tg .media__link {
-  background-image: url("../../images/icons/telegram.jpg");
+  background: url("../../images/icons/media-sprite.png") -234px -10px;
 }
 .media__item-icon-tg .media__link:hover {
-  background-image: url("../../images/icons/telegram-hover.jpg");
+  background: url("../../images/icons/media-sprite.png") -290px -10px;
 }
 
 .media__item-icon-vk .media__link {
-  background-image: url("../../images/icons/vk.jpg")
+  background: url("../../images/icons/media-sprite.png") -346px -10px;
 }
 .media__item-icon-vk .media__link:hover {
-  background-image: url("../../images/icons/vk-hover.jpg")
+  background: url("../../images/icons/media-sprite.png") -402px -10px;
 }
 
 .media__item-icon-f .media__link {
-  background-image: url("../../images/icons/f.jpg");
+  background: url("../../images/icons/media-sprite.png") -10px -10px;
 }
 .media__item-icon-f .media__link:hover {
-  background-image: url("../../images/icons/f-hover.jpg");
+  background: url("../../images/icons/media-sprite.png") -66px -10px;
 }
 
 .media__item-icon-inst .media__link {
-  background-image: url("../../images/icons/in.jpg");
+  background: url("../../images/icons/media-sprite.png") -122px -10px;;
 }
 
 .media__item-icon-inst .media__link:hover {
-  background-image: url("../../images/icons/in-hover.jpg");
+  background: url("../../images/icons/media-sprite.png") -178px -10px;
 }
