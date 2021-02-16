@@ -7,11 +7,16 @@
   flex: 1;
   margin-right: 30px;
   border-radius: 5px;
-  border: none;
+  border: 1px solid #fff ;
   background: #fff;
   font-size: 18px;
   color: #1A1B1E;
   padding: 20px 30px;
+  outline: none;
+}
+
+.form__input:focus {
+  border: 1px solid #E5C288;
 }
 
 .form__input:placeholder {
