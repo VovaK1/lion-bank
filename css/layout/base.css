@@ -75,6 +75,10 @@ a {
   position: relative;
 }
 
+.container__wider {
+  width: 1200px;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;

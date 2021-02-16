@@ -1,6 +1,7 @@
 .dropdown {
   position: relative;
-}
+  display: inline-block;
+} 
 
 .dropdown:hover .dropdown__workhours {
   left: 30px;
@@ -23,6 +24,15 @@
   left: -9999px;
   opacity: 0;
   transition: opacity .5s;
+}
+
+.dropdown__workhours:after {
+  content: "";
+  position: absolute;
+  border: 20px solid transparent;
+  border-bottom-color: #ededed;
+  top: -30px;
+  left: 90px;
 }
 
 .dropdown__workhours:before {
